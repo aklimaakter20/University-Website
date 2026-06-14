@@ -340,3 +340,37 @@ h2 {
         padding: 10px;
     }
 }
+/* Footer-section */
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+footer p{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+.icons{
+    margin: 15px 0;
+}
+.icons i{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #232D43;
+    transition: 1s;
+}
+.icons i:hover{
+    color: #f44336;
+}
+@media(max-width:768px){
+    footer p{
+    max-width: 300px;
+  
+}
+}
