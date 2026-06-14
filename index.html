@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>University Website</title>
 </head>
 <body>
     <section class="header">
        <nav>
         <a href="index.html"><img src="./images/logo.png" alt=""></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+             
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -19,6 +22,7 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav> 
     <div class="text-box">
         <h1>World's Biggest University</h1>
@@ -26,5 +30,15 @@
         <a href="" class="hero-btn">Visit Us To Know More</a>
     </div>
     </section>
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.left = "0";
+        }
+        function hideMenu(){
+            navLinks.style.left = "-1000px";
+        }
+    </script>
 </body>
 </html>
