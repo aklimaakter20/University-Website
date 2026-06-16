@@ -374,3 +374,17 @@ footer p{
   
 }
 }
+/* About-page */
+.about-header{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+
+}
+.about-header h1{
+    margin-top: 100px;
+}
