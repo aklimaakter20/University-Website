@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website</title>
+</head>
+<body>
+    <!-- header-section -->
+    <header class="about-header">
+       <nav>
+        <a href="index.html"><img src="./images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+             
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+       <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+        <h1>About Us</h1>
+    </header>
+  
+<!-- Course-section -->
+     <section class="course">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laudantium.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus fugiat et ab, maxime sunt quo aliquid eaque tempora molestiae porro, id beatae doloremque sit. Provident.</p>
+            </div>
+              <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus fugiat et ab, maxime sunt quo aliquid eaque tempora molestiae porro, id beatae doloremque sit. Provident.</p>
+            </div>
+              <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus fugiat et ab, maxime sunt quo aliquid eaque tempora molestiae porro, id beatae doloremque sit. Provident.</p>
+            </div>
+        </div>
+     </section>
+        <!-- facilities section -->
+    <section class="facilities">
+        <h2>Our Facilities</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, excepturi nisi fugit consequuntur alias ducimus saepe.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorem tempora quo voluptatem mollitia itaque ab. Quibusdam placeat nam minus optio, cumque laboriosam voluptas cupiditate?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorem tempora quo voluptatem mollitia itaque ab. Quibusdam placeat nam minus optio, cumque laboriosam voluptas cupiditate?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images//cafeteria.png" alt="">
+                <h3>Tasty & Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorem tempora quo voluptatem mollitia itaque ab. Quibusdam placeat nam minus optio, cumque laboriosam voluptas cupiditate?</p>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Footer-section -->
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, illum  corrupti laboriosam <br>obcaecati sapiente voluptatem expedita iste ut quod minus.</p>
+        <div class="icons">
+           <i class="fa-brands fa-facebook-f"></i>
+           <i class="fa-brands fa-instagram"></i>
+           <i class="fa-brands fa-linkedin"></i>
+           <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Aklima Akter</p>
+    </footer>
+
+
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.left = "0";
+        }
+        function hideMenu(){
+            navLinks.style.left = "-1000px";
+        }
+    </script>
+</body>
+</html>
